@@ -1,0 +1,81 @@
+body{
+    background-color: pink;
+    border:  30px solid transparent; 
+    border-image: url(./images/wall.jpg) 30 round;
+    height:100%;
+     display: flex;
+    justify-content: center;
+    margin:0;
+    text-align: justify; }
+ h1{
+    font-family: 'Henny Penny';
+    font-size: 50px;
+    color:green;
+    text-shadow: -1px 1px 2px #230000,
+    1px 3px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    padding-left:33%;
+
+ }
+ p{
+    font-family: 'Delius';
+     font-size: 18px;
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 200;
+       line-height: 40px;
+       padding: 20px;
+ }
+ #moral{
+    font-weight: 600;
+    font-size: 24px;
+ }
+ .image{
+    width:250px;
+    height:250px;
+    border-radius: 5px 5px;
+    padding-left:40%;
+
+ }
+ .image:hover{
+    opacity:0.7;
+  }
+ .fa{
+   padding:10px;
+    font-size: 100px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+     color:rgb(128, 0, 73);
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+ 
+th{
+    padding: 10px;
+    font-size: 50px;
+}
+tr{
+    width:100%;
+}
+.sharei{
+    color:rgb(169, 1, 138);
+    display:absolute;
+    font-size: 20px;
+      width:100px;
+}
+table{
+    padding:20px;
+}
+
+span{
+    font-weight:600;
+}
+#copyright{
+   bottom:0;
+   padding-left:35%;
+
+}
+  
